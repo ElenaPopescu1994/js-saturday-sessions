@@ -9,12 +9,8 @@ Input:
 Output: 
     You rolled: 4 */
 
-    let numberOne=1;
-    let numberTwo=2;
-    let numberThree=3;
-    let numberFour=4;
-    let numberFive=5;
-    let numberSix=6;
-    
 
-    alert(`You rolled ${(numberOne)||(numberTwo)||(numberThree)||(numberFour)||(numberFive)||(numberSix)}`);
+ let diceRoll = Math.floor(Math.random() * 6) + 1;
+
+
+ alert(`You rolled: ${diceRoll}`);
