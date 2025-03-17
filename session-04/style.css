@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+#text-output{
+    text-align: center;
+}
+
+#display{
+    font-size: 3rem;
+    padding: 1rem 2rem;
+}
+
